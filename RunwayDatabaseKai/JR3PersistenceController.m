@@ -2,8 +2,8 @@
 //  JR3PersistenceController.m
 //  ReactiveBrew
 //
-//  Created by Julio Reyes on 9/9/15.
-//  Copyright (c) 2015 Julio Reyes. All rights reserved.
+//  Created by arman on 9/9/15.
+//  Copyright (c) 2015 arman. All rights reserved.
 //
 //  Based off Marcus Zarra's Core Data Stack at http://martiancraft.com/blog/2015/03/core-data-stack/
 //

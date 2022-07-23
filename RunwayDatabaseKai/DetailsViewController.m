@@ -2,8 +2,8 @@
 //  DetailsViewController.m
 //  RunwayDatabaseKai
 //
-//  Created by Julio Reyes on 11/12/15.
-//  Copyright © 2015 Julio Reyes. All rights reserved.
+//  Created by arman on 11/12/15.
+//  Copyright © 2015 arman. All rights reserved.
 //
 
 #import "DetailsViewController.h"

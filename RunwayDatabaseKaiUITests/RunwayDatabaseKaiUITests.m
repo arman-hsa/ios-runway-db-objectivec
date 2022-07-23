@@ -2,8 +2,8 @@
 //  RunwayDatabaseKaiUITests.m
 //  RunwayDatabaseKaiUITests
 //
-//  Created by Julio Reyes on 11/10/15.
-//  Copyright © 2015 Julio Reyes. All rights reserved.
+//  Created by arman on 11/10/15.
+//  Copyright © 2015 arman. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>

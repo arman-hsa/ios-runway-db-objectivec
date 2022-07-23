@@ -2,8 +2,8 @@
 //  RunwayDatabaseKaiTests.m
 //  RunwayDatabaseKaiTests
 //
-//  Created by Julio Reyes on 11/9/15.
-//  Copyright © 2015 Julio Reyes. All rights reserved.
+//  Created by arman on 11/9/15.
+//  Copyright © 2015 arman. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
@@ -34,7 +34,7 @@ static const NSString* jsonStr;
     // Check to see if the DesignerItem class took in junk
     NSMutableDictionary *dict = [[NSMutableDictionary alloc]init];
     [dict setValue:@"Audigier" forKey:@"designerName"];
-    [dict setValue:@"Julio Reyes il sviluppatore iOS" forKey:@"displayName"];
+    [dict setValue:@"arman il sviluppatore iOS" forKey:@"displayName"];
     [dict setValue:@"Just me wearing a pretty-witty dress." forKey:@"productDetail"];
     [dict setValue:@"$350" forKey:@"displayPriceString"];
     [dict setValue:@"$350" forKey:@"displayPrice8DayString"];
@@ -73,7 +73,7 @@ static const NSString* jsonStr;
     }];
     
     // This test should fail. Clearly, i'm not a designer.
-    [[RTRDataWrapper sharedDressManager]fetchmeDressesByDesigner:@"Julio Reyes III" completionBlock:^(NSArray *designerArray, NSError *error) {
+    [[RTRDataWrapper sharedDressManager]fetchmeDressesByDesigner:@"arman III" completionBlock:^(NSArray *designerArray, NSError *error) {
         XCTAssertFalse(designerArray.count > 0);
     }];
 }
